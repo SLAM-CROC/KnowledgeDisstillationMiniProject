@@ -12,7 +12,7 @@ Four pickles files and each one contains a dictionary, the keys of the dictionar
 * x_valid: validation data which shape is (300, 2)
 * y_valid: labels of the validation data
 
-![avatar]()
+![avatar](https://github.com/SLAM-CROC/KnowledgeDisstillationMiniProject/blob/main/data%20distribution.png)
 
 The plot shows the train data, each Gaussian distribution is considered as a separate domain; each domain is plotted using a different shape (cross, square, and circle). Each Gaussian distribution has two classes in it which are plotted using different colors (blue and orange)
 
@@ -41,7 +41,7 @@ Experiments_On_data_d1.0.ipynb
 
 And get the following result:
 
-![avatar]()
+![avatar](https://github.com/SLAM-CROC/KnowledgeDisstillationMiniProject/blob/main/result.png)
 
 By analyzing the above table, it can be found that the average accuracy of the multi-domain model trained by knowledge distillation in the test set is lower than the FFNN model obtained by direct training. There may be two reasons for this result:
 

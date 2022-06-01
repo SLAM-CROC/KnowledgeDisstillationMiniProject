@@ -22,7 +22,7 @@ Create a multi-domain feedforward neural network (FFNN).
 
 1) Implement a basic FFNN as multi-domain model  
 2) Train 3 single-domain models as teacher models  
-3) 3 single-domain models to train student model by using knowledge distillation
+3) Using 3 single-domain models to train student model by using knowledge distillation
 
 ### Environment & Dependencies
 
